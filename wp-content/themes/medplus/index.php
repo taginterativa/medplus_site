@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="shortcut icon" type="image/ico" href="<?php bloginfo('template_url');?>/favicon.ico" />
 <title>MedPlus</title>
 <?php 
   wp_head();
@@ -13,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/jquery.fullPage.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/idangerous.swiper.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/js/lightbox/css/lightbox.css">
+<link rel="shortcut icon" type="image/ico" href="<?php bloginfo('template_url');?>/favicon.ico" />
 <script>
 var baseUrl = "<?php bloginfo('url');?>"; 
 var pathUrl = "<?php bloginfo('template_url');?>"; 
@@ -26,33 +26,38 @@ var pathUrl = "<?php bloginfo('template_url');?>";
         <?php get_template_part( 'section', 'one' ); ?>
     </div>
     <div class="section" data-page="2">
-        <div class="scrollable"><?php get_template_part( 'section', 'two' ); ?></div>
+         <?php get_template_part( 'section', 'two'  ); ?>
     </div>
     <div class="section" data-page="3" data-sub="1">
-        <div class="scrollable"><?php get_template_part( 'section', 'three' ); ?></div>
+         <?php get_template_part( 'section', 'three'  ); ?>
     </div>
     <div class="section" data-page="3" data-sub="2">
-        <div class="scrollable"><?php get_template_part( 'section', 'four' ); ?></div>
+         <?php get_template_part( 'section', 'four'  ); ?>
     </div>
     <div class="section" data-page="4" data-sub="1">
-        <div class="scrollable"><?php get_template_part( 'section', 'five' ); ?></div>
+         <?php get_template_part( 'section', 'five'  ); ?>
     </div>
     <div class="section" data-page="4" data-sub="2">
-        <div class="scrollable"><?php get_template_part( 'section', 'six' ); ?></div>
+         <?php get_template_part( 'section', 'six'  ); ?>
     </div>
     <div class="section" data-page="5">
-        <div class="scrollable"><?php get_template_part( 'section', 'seven' ); ?></div>
+         <?php get_template_part( 'section', 'seven'  ); ?>
     </div>
     <div class="section" data-page="6">
-        <div class="scrollable"><?php get_template_part( 'section', 'eight' ); ?></div>
+         <?php get_template_part( 'section', 'eight'  ); ?>
     </div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/placeholder.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/modernizr.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/jquery.easings.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/jquery.slimscroll.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/jquery.fullPage.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/mask.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/idangerous.swiper.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/lightbox/js/lightbox.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/jquery.carouFredSel-6.0.4-packed.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/scripts.js"></script>
 
 <script>

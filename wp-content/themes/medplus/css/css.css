@@ -814,7 +814,7 @@ body{
 	width: 495px;
 	overflow:hidden;
 }
-.contact_form .styled-select select {
+.wpcf7 .styled-select select {
 	background: transparent;
 	width: 505px;
 	padding: 5px;
@@ -832,7 +832,7 @@ body{
 	font-weight:700;
 	color:#434343;
 }
-.contact_form .styled-select {
+.wpcf7 .styled-select {
 	width: 505px;
 	height: 34px;
 	overflow: hidden;
@@ -847,7 +847,7 @@ body{
 	font-weight:700;
 	color:#434343;
 }
-.contact_form input[type=text]{
+.wpcf7 input[type=text]{
 	width: 495px;
 	padding-top: 9px;
 	padding-bottom: 9px;
@@ -863,7 +863,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 }
-.contact_form textarea{
+.wpcf7 textarea{
 	width: 495px;
 	height: 104px;
 	overflow: hidden;
@@ -881,11 +881,11 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 }
-.contact_form ::-webkit-input-placeholder {color: #434343;}
-.contact_form :-moz-placeholder {color: #434343;}
-.contact_form ::-moz-placeholder {color: #434343;}
-.contact_form :-ms-input-placeholder {color: #434343;}
-.contact_form input[type=submit]{
+.wpcf7 ::-webkit-input-placeholder {color: #434343;}
+.wpcf7 :-moz-placeholder {color: #434343;}
+.wpcf7 ::-moz-placeholder {color: #434343;}
+.wpcf7 :-ms-input-placeholder {color: #434343;}
+.wpcf7 input[type=submit]{
 	background:#ed1c24;
 	border:3px solid #ed1c24;
 	-webkit-border-radius:5px;
@@ -903,7 +903,7 @@ body{
 	left: -105px;
 	top: 20px;
 }
-.contact_form input[type=submit]:hover{
+.wpcf7 input[type=submit]:hover{
 	cursor:pointer;	
 	background:#cc040c;
 	border:3px solid #cc040c;
