@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/jquery.fullPage.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/css/idangerous.swiper.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/js/lightbox/css/lightbox.css">
-<link rel="shortcut icon" type="image/ico" href="<?php bloginfo('template_url');?>/favicon.ico" />
+<link rel="shortcut icon" type="image/ico" href="<?php bloginfo('template_url');?>/favicon.png" />
 <script>
 var baseUrl = "<?php bloginfo('url');?>"; 
 var pathUrl = "<?php bloginfo('template_url');?>"; 
