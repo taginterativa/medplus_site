@@ -1,31 +1,31 @@
-<div class="page_bg7" style="background:url(images/bg_7.jpg) no-repeat right top;background-attachment:fixed;"></div>
+<div class="page_bg7" style="background:url(<?php bloginfo('template_url'); ?>/images/bg_7.jpg) no-repeat right top;background-attachment:fixed;"></div>
 <div class="page_container">
     <div class="page_content">
-        <h3>Total dedicação aos nossos</h3>
-        <h2>Clientes</h2>
-        <p>Hoje a nós já contamos com mais de 2500 clientes por todo o Brasil, número esse que é resultado da busca pela excelência da empresa durante nossos 15 anos de caminhada.</p>
-        <p>Mas nós temos consciência de que o desafio ainda não foi superado, e nos empenhamos sempre em melhorar nossos sistemas e suporte técnico aos clientes, para que, cada vez mais, as alianças se estreitem, aproximando empresa e contratantes.</p>
+        <?php
+            $page = get_page_by_title('clientes');
+            echo $page->post_content;
+        ?>
         <div class="quotes_here">
-            <div class="quotes">
-                <div class="image">
-                    <img src="images/client.png" alt=""/>
-                </div>
-                <div class="text">
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
-                    <p><b>Nome do cliente<br>
-                    <font style="font-size:12px;">Empresa | Cargo</font></b></p>
-                </div>
-            </div>
-            <div class="quotes">
-                <div class="image">
-                    <img src="images/client.png" alt=""/>
-                </div>
-                <div class="text">
-                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
-                    <p><b>Nome do cliente<br>
-                    <font style="font-size:12px;">Empresa | Cargo</font></b></p>
-                </div>
-            </div>
+            <?php
+            $args = array('post_type' => 'clientes', 'posts_per_page' => 2, 'orderby' => 'rand');
+            $loop = new WP_Query($args);
+            if($loop->have_posts()) :
+                $i = 0;
+                while($loop->have_posts()) :
+                    $loop->the_post();
+                    echo '<div class="quotes">
+                            <div class="image">
+                                <img src="' . get_post_meta($post->ID, '_cli_imagem', true) . '" alt="' . get_post_meta($post->ID, '_cli_nome', true) . '"/>
+                            </div>
+                            <div class="text">
+                                <p><i>' . nl2br(get_post_meta($post->ID, '_cli_depoimento', true)) . '</i></p>
+                                <p><b>' . get_post_meta($post->ID, '_cli_nome', true) . '<br>
+                                <font style="font-size:12px;">' . $post->post_title . ' | ' . get_post_meta($post->ID, '_cli_cargo', true) . '</font></b></p>
+                            </div>
+                        </div>';
+
+                endwhile;
+            endif; ?>
         </div>
     </div>
     <style>
@@ -80,42 +80,19 @@
     <div class="clients_slider">        
       <div id="wrapper">
             <div id="carousel">
+                <?php
+                $args = array('post_type' => 'clientes', 'posts_per_page' => -1, 'order_by' => 'rand()');
+                $loop = new WP_Query($args);
+                if($loop->have_posts()) :
+                    $i = 0;
+                    while($loop->have_posts()) :
+                        $loop->the_post();
+                        $logo = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID ), 'full' ); ?>
                 <div>
-                    <span><img src="images/c1.png" alt="Cliente" data-picture="images/client.png" data-text="Teste" data-name="Teste Nome" data-company="Empresa Teste" data-cargo="Cargo Teste" class="client_depo"></span>
+                    <span><img src="<?php echo $logo[0]; ?>" alt="<?php echo $post->post_title; ?>" data-picture="<?php echo get_post_meta($post->ID, '_cli_imagem', true); ?>" data-text="<?php echo str_replace('"', '', get_post_meta($post->ID, '_cli_depoimento', true)); ?>" data-name="<?php echo htmlentities(get_post_meta($post->ID, '_cli_nome', true)); ?>" data-company="<?php echo $post->post_title; ?>" data-job="<?php echo get_post_meta($post->ID, '_cli_cargo', true); ?>" class="client_depo"></span>
                 </div>
-                <div>
-                    <span><img src="images/c2.png" alt="Cliente" data-picture="images/client.png" data-text="Teste1" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c3.png" alt="Cliente" data-picture="images/client.png" data-text="Teste2" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c4.png" alt="Cliente" data-picture="images/client.png" data-text="Teste3" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c5.png" alt="Cliente" data-picture="images/client.png" data-text="Teste4" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c6.png" alt="Cliente" data-picture="images/client.png" data-text="Teste5" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c1.png" alt="Cliente" data-picture="images/client.png" data-text="Teste6" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c2.png" alt="Cliente" data-picture="images/client.png" data-text="Teste7" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c3.png" alt="Cliente" data-picture="images/client.png" data-text="Teste8" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c4.png" alt="Cliente" data-picture="images/client.png" data-text="Teste9" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c5.png" alt="Cliente" data-picture="images/client.png" data-text="Teste10" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
-                <div>
-                    <span><img src="images/c6.png" alt="Cliente" data-picture="<?php echo get_template_directory(); ?>images/client.png" data-text="Teste11" data-name="Teste Nome" data-company="Empresa Teste" data-job="Cargo Teste" class="client_depo"></span>
-                </div>
+                <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
