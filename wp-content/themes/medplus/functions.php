@@ -497,7 +497,7 @@ function create_post_type_html5()
         )
     );
 
-    register_post_type( 'clientes-logos', //nome do post type (sempre minusculo)
+    /*register_post_type( 'clientes-logos', //nome do post type (sempre minusculo)
         array(
             'labels' => array(
                 'name' => __( 'Clientes (Logos)' ), //nome que ira aparecer na tela
@@ -519,6 +519,18 @@ function create_post_type_html5()
             'public' => true, //nao altera
             'supports' => array('title','editor','thumbnail') //oque ira aparecer nos posts mais usados sao estes
         )
+    );*/
+
+    register_post_type( 'clientes', //nome do post type (sempre minusculo)
+        array(
+            'labels' => array(
+                'name' => __( 'Clientes' ), //nome que ira aparecer na tela
+                'singular_name' => __( 'Cliente' ), //esse eu nao sei pra que serve ... :)
+                'all_items' => __('Listar Todos'), // listar todos menu
+            ),
+            'public' => true, //nao altera
+            'supports' => array('title','editor','thumbnail') //oque ira aparecer nos posts mais usados sao estes
+        )
     );
 }
 
@@ -526,30 +538,77 @@ function create_post_type_html5()
   add_action( 'add_meta_boxes', 'adicionais_add_meta_box' );
 
   function adicionais_add_meta_box() {
-    add_meta_box(
+    /*add_meta_box(
         'cliente_depoimento_metaboxid', //ID para insercao da caixa com os campos
         'Informações', //titulo que aparecera para a caixa
         'cliente_depoimento_meta_box', //funcao a ser executada (onde estara o formulario com os campos)
         'clientes-depoimentos' //post type de referencia
-    );
+    );*/
+
+      add_meta_box(
+          'cliente_metaboxid', //ID para insercao da caixa com os campos
+          'Depoimento', //titulo que aparecera para a caixa
+          'cliente_meta_box', //funcao a ser executada (onde estara o formulario com os campos)
+          'clientes' //post type de referencia
+      );
   }
 
   //funcao com os campos personalizados
-  function cliente_depoimento_meta_box($post){
+  function cliente_meta_box($post){
   ?>
-     <p>
-      <label for="cli_nome">Nome do Cliente</label>
-      <input style="width: 100%;"  type="text" name="cli_nome" value="<?php echo get_post_meta( $post->ID, '_cli_nome', true ); ?>" />
-     </p>
-      <p>
-          <label for="cli_empresa">Empresa</label>
-          <input style="width: 100%;"  type="text" name="cli_empresa" value="<?php echo get_post_meta( $post->ID, '_cli_empresa', true ); ?>" />
-      </p>
-      <p>
-          <label for="cli_cargo">Cargo</label>
-          <input style="width: 100%;"  type="text" name="cli_cargo" value="<?php echo get_post_meta( $post->ID, '_cli_cargo', true ); ?>" />
-      </p>
+      <table>
+          <tr valign="top">
+              <td>Imagem</td>
+              <td>
+                  <label for="upload_image">
+                      <input id="upload_image" type="text" size="36" name="cli_imagem" value="<?php echo get_post_meta( $post->ID, '_cli_imagem', true ); ?>" />
+                      <input id="upload_image_button" type="button" value="Procurar" />
+                  </label>
+              </td>
+          </tr>
+          <tr>
+              <td><label for="cli_nome">Nome do funcionário</label></td>
+              <td> <input style="width: 100%;"  type="text" name="cli_nome" value="<?php echo get_post_meta( $post->ID, '_cli_nome', true ); ?>" /></td>
+          </tr>
+          <tr>
+              <td><label for="cli_cargo">Cargo</label></td>
+              <td><input style="width: 100%;"  type="text" name="cli_cargo" value="<?php echo get_post_meta( $post->ID, '_cli_cargo', true ); ?>" /></td>
+          </tr>
 
+          <tr>
+              <td><label for="cli_depoimento">Depoimento</label></td>
+              <td><textarea cols="50" rows="6" name="cli_depoimento"><?php echo get_post_meta( $post->ID, '_cli_depoimento', true ); ?></textarea></td>
+          </tr>
+      </table>
+      <script>
+          jQuery(document).ready(function(){
+              var formfield;
+
+              jQuery('#upload_image_button').click(function() {
+                  jQuery('html').addClass('Image');
+                  formfield = jQuery('#upload_image').attr('name');
+                  tb_show('', 'media-upload.php?type=image&TB_iframe=true');
+                  return false;
+              });
+
+              window.original_send_to_editor = window.send_to_editor;
+              window.send_to_editor = function(html){
+
+                  if (formfield) {
+                      fileurl = jQuery('img',html).attr('src');
+
+                      jQuery('#upload_image').val(fileurl);
+
+                      tb_remove();
+
+                      jQuery('html').removeClass('Image');
+
+                  } else {
+                      window.original_send_to_editor(html);
+                  }
+              };
+          });
+      </script>
   <?php
   }
 
@@ -557,11 +616,12 @@ function create_post_type_html5()
 add_action( 'save_post', 'clientes_depoimentos_save_post', 10, 2 );
 function clientes_depoimentos_save_post( $post_id, $post )
 {
-    if(isset($_POST['post_type']) && $_POST['post_type'] == 'clientes-depoimentos')
+    if(isset($_POST['post_type']) && $_POST['post_type'] == 'clientes')
     {
         update_post_meta( $post_id, '_cli_nome', strip_tags( $_POST['cli_nome'] ) );
-        update_post_meta( $post_id, '_cli_empresa', strip_tags( $_POST['cli_empresa'] ) );
+        update_post_meta( $post_id, '_cli_depoimento', strip_tags( $_POST['cli_depoimento'] ) );
         update_post_meta( $post_id, '_cli_cargo', strip_tags( $_POST['cli_cargo'] ) );
+        update_post_meta( $post_id, '_cli_imagem', strip_tags( $_POST['cli_imagem'] ) );
     }
 }
 
