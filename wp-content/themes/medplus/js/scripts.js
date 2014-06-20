@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$(".request_box").each(function(){
+		var rb = $(this).clone();
+		rb.addClass("new");
+		$(this).parent().children(".solution_container").append(rb);
+		$(this).remove();
+	});
 	$(".client_depo").click(function(){
 		$(".quotes_here").empty().append('<div class="quotes"><div class="image"><img src="'+$(this).data("picture")+'" alt=""/></div><div class="text"><p><i>'+$(this).data("text")+'</i></p><p><b>'+$(this).data("name")+'<br><font style="font-size:12px;">'+$(this).data("company")+' | '+$(this).data("job")+'</font></b></p></div></div>');
 	});
