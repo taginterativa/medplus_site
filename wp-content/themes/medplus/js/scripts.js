@@ -2,16 +2,6 @@ $(document).ready(function(){
 	$(".client_depo").click(function(){
 		$(".quotes_here").empty().append('<div class="quotes"><div class="image"><img src="'+$(this).data("picture")+'" alt=""/></div><div class="text"><p><i>'+$(this).data("text")+'</i></p><p><b>'+$(this).data("name")+'<br><font style="font-size:12px;">'+$(this).data("company")+' | '+$(this).data("job")+'</font></b></p></div></div>');
 	});
-
-    $(".form-presentation").submit(function(){
-        $("select[name=area]").children("option[value=COMERCIAL]").attr("selected","selected");
-        $("#wpcf7-f58-o1").find("input[name=name]").val($(this).find("input[name=name]").val());
-        $("#wpcf7-f58-o1").find("input[name=email]").val($(this).find("input[name=email]").val());
-
-        $.fn.fullpage.moveTo(8);
-        return false;
-    });
-
 	if( $("html").hasClass("ie8") ) {
 		$(".styled-select").css("background","");
 		if($(window).height()<800){

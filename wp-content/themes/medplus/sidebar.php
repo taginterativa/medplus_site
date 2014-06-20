@@ -1,14 +1,14 @@
 <div class="menu">
     <div class="logo click_page" title="MedPlus - Home" data-go-to="1" data-page="1"></div>
 
-    <div title="<?php _e("<!--:en-->Who We Are<!--:--><!--:es-->Quiénes somos<!--:--><!--:pt-->Quen Somos<!--:-->"); ?>" class="button click_page" data-go-to="2" data-page="2">
+    <div title="<?php _e("<!--:en-->Who We Are<!--:--><!--:es-->Quiénes somos<!--:--><!--:pt-->Quem Somos<!--:-->"); ?>" class="button click_page" data-go-to="2" data-page="2">
         <div class="heart_beat">
             <div class="line"></div>
             <div class="white"></div>
             <div class="blood"></div>
         </div>
         <div class="text">
-            <?php _e("<!--:en-->Who We Are<!--:--><!--:es-->Quiénes somos<!--:--><!--:pt-->Quen Somos<!--:-->"); ?>
+            <?php _e("<!--:en-->Who We Are<!--:--><!--:es-->Quiénes somos<!--:--><!--:pt-->Quem Somos<!--:-->"); ?>
         </div>
     </div>
 
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <div title="<?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>" class="request click_page" data-go-to="1" data-page="1">
+    <div title="<?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>" class="request click_page" data-go-to="8" data-page="6">
         <?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>
     </div>
 

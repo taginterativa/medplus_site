@@ -16,7 +16,7 @@ endif; ?>
 <div class="slides_nav" align="center">
     <?php for($j = 0; $j < $i; $j++):
         ($j == 0) ? $active = ' active' : $active = '';
-        echo '<span class="nav_dot' . $active . '"></span>';
+        echo '<span class="nav_dot' . $active . '" data-title="Título" data-subtitle="Subtítulo"></span>';
     endfor; ?>
 </div>
 <?php endif; ?>
