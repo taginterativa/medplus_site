@@ -20,7 +20,7 @@ endif; ?>
     endfor; ?>
 </div>
 <?php endif; ?>
-<div class="content">
+<div class="content bg_white">
     <?php
     $args = array('pagename' => 'Home',);
     $loop = new WP_Query($args);

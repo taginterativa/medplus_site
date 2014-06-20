@@ -93,6 +93,6 @@
         <a href="<?php echo get_option( 'facebook', '' );?>" target="_blank" title="Facebook - MedPlus"><div class="icon f1"></div></a>
         <a href="<?php echo get_option( 'twitter', '' );?>" target="_blank" title="Twitter - MedPlus"><div class="icon t1"></div></a>
         <a href="<?php echo get_option( 'youtube', '' );?>" target="_blank" title="YouTube - MedPlus"><div class="icon y1"></div></a>
-        <a href="<?php echo get_option( 'googleplus', '' );?>" target="_blank" title="Google+ - MedPlus"><div class="icon g1"></div></a>
+        <a href="<?php echo get_option( 'googleplus', '' );?>" target="_blank" title="LinkedIn - MedPlus"><div class="icon g1"></div></a>
     </div>
 </div>
