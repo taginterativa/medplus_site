@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e2187f8-4d7f-4bf6-b6aa-1a1617e74cc4" name="Default" comment="">
+    <list default="true" id="3e2187f8-4d7f-4bf6-b6aa-1a1617e74cc4" name="Default" comment="Correções">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/images/google.png" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/images/google.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/images/slide_bg2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/images/slide_bg2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/images/slide_bg3.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/images/slide_bg3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/css/css.css" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/section-four.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/section-four.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/section-three.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/section-three.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/section-one.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/section-one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/medplus/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/medplus/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="medplus_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +37,8 @@
       <file leaf-file-name="section-four.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-four.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="408">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="408">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,10 +46,8 @@
       <file leaf-file-name="section-three.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-three.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="517" selection-end="583" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="408">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="0" column="78" selection-start="44" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,16 +55,37 @@
       <file leaf-file-name="section-five.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-five.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+            <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-presentation.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php">
+      <file leaf-file-name="section-seven.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-seven.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="897">
+            <state line="43" column="9" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1768">
+              <folding>
+                <marker date="1403275178251" expanded="true" signature="709:1425" placeholder="..." />
+                <marker date="1403275178251" expanded="true" signature="709:800" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="632" column="0" selection-start="24403" selection-end="24403" vertical-scroll-proportion="2.6153846" vertical-offset="10744" max-vertical-offset="12427">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section-one.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-one.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="6" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.6822742" vertical-offset="0" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -73,7 +94,7 @@
       <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="815" column="1" selection-start="16915" selection-end="16915" vertical-scroll-proportion="-4.9454546" vertical-offset="13583" max-vertical-offset="19567">
+            <state line="821" column="1" selection-start="17021" selection-end="17021" vertical-scroll-proportion="0.0" vertical-offset="13685" max-vertical-offset="19669">
               <folding />
             </state>
           </provider>
@@ -92,12 +113,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/medplus/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/medplus/section-four.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/medplus/section-three.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/medplus/css/css.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/medplus/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/medplus/section-seven.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/medplus/section-one.php" />
       </list>
     </option>
   </component>
@@ -269,7 +293,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sponte/wp-content/themes/sponte/js/master.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../circulo/blog" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -294,28 +319,38 @@
       <created>1403097329048</created>
       <updated>1403097329048</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correções">
+      <created>1403275487804</created>
+      <updated>1403275487804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Correções">
+      <created>1403275500304</created>
+      <updated>1403275500304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -333,83 +368,216 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Correções" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correções" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../sponte/wp-content/themes/sponte/js/master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="17" selection-start="6079" selection-end="6430" vertical-scroll-proportion="0.63163596" vertical-offset="3021" max-vertical-offset="3944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3893">
-          <folding>
-            <marker date="1403098893019" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/index 2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="630" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="98" selection-start="628" selection-end="628" vertical-scroll-proportion="-2.9382715" vertical-offset="0" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-eight.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="871" selection-end="871" vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-four.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-three.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="517" selection-end="583" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="0" column="78" selection-start="44" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-five.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+        <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-seven.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="9" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1768">
+          <folding>
+            <marker date="1403275178251" expanded="true" signature="709:1425" placeholder="..." />
+            <marker date="1403275178251" expanded="true" signature="709:800" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="632" column="0" selection-start="24403" selection-end="24403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="6" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="815" column="1" selection-start="16915" selection-end="16915" vertical-scroll-proportion="-4.9454546" vertical-offset="13583" max-vertical-offset="19567">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="517" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-five.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="897">
+        <state line="2" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="517" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-five.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="815" column="1" selection-start="16915" selection-end="16915" vertical-scroll-proportion="0.0" vertical-offset="13583" max-vertical-offset="19567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sponte/wp-content/themes/sponte/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="17" selection-start="6079" selection-end="6430" vertical-scroll-proportion="0.63163596" vertical-offset="3021" max-vertical-offset="3944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="98" selection-start="628" selection-end="628" vertical-scroll-proportion="-2.9382715" vertical-offset="0" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-eight.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="871" selection-end="871" vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-four.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="821" column="1" selection-start="17021" selection-end="17021" vertical-scroll-proportion="0.0" vertical-offset="13685" max-vertical-offset="19669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/form-presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="185" selection-end="185" vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="78" selection-start="44" selection-end="78" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-five.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="33" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3966" column="9" selection-start="127468" selection-end="127468" vertical-scroll-proportion="0.34276018" vertical-offset="67017" max-vertical-offset="96645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3739" column="13" selection-start="101780" selection-end="101780" vertical-scroll-proportion="0.34276018" vertical-offset="63090" max-vertical-offset="74630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-seven.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="9" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1768">
+          <folding>
+            <marker date="1403275178251" expanded="true" signature="709:1425" placeholder="..." />
+            <marker date="1403275178251" expanded="true" signature="709:800" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="31" selection-end="31" vertical-scroll-proportion="0.01868132" vertical-offset="0" max-vertical-offset="3825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="632" column="0" selection-start="24403" selection-end="24403" vertical-scroll-proportion="2.6153846" vertical-offset="10744" max-vertical-offset="12427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/medplus/section-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.6822742" vertical-offset="0" max-vertical-offset="897">
           <folding />
         </state>
       </provider>
