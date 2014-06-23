@@ -29,8 +29,10 @@
                         $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID ), 'full' );
                         ?>
                         <div class="swiper-slide" style="width:635px;background:url(<?php echo $thumbnail[0];?>) no-repeat center center;background-size:cover;position:relative;">
-                            <a class="example-image-link" href="<?php echo $thumbnail[0];?>" data-lightbox="example-1">
+                            
                                 <div class="expand"></div>
+                            <a class="example-image-link" href="<?php echo $thumbnail[0];?>" data-lightbox="example-1">
+                                <div style="z-index:1;position:absolute;left:0px;top:0px;height:100%;width:100%;"></div>
                             </a>
                         </div>
                         <?php the_content();?>

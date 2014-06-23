@@ -1,5 +1,14 @@
 @import url("reset.css");
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,800italic,600,800,400,300,700);
+.wpcf7-not-valid-tip{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-style:italic;
+	font-size:12px !important;
+}
+.wpcf7-validation-errors{
+	display:none !important;
+}
 body{
 	margin:0px auto;
 }
@@ -12,14 +21,14 @@ input{
 .white_stripe{
 	width:100%;
 	height:300px;
-	background:url(../images/w25.png);
+	background:url(../images/w25.png);background:rgba(255,255,255,0.25);
 	position:absolute;
 	top:100px;
 	left:0px;
 	z-index:2;
 }
 .bg_white{
-	background:url(../images/w70.png);
+	background:url(../images/w70.png);background:rgba(255,255,255,0.7);
 	padding:20px;
 }
 .os_l{
@@ -51,7 +60,7 @@ body{
 .menu{
 	width:240px;
 	height:100%;
-	background:url(../images/g80.png);
+	background:url(../images/g80.png);background:rgba(243,243,243,0.8);
 	position:fixed;
 	top:0px;
 	left:0px;
@@ -266,7 +275,7 @@ body{
 	margin-bottom:20px;
 }
 .content input[type=text]{
-	background:url(../images/w25.png);
+	background:url(../images/w25.png);background:rgba(255,255,255,0.25);
 	border:3px solid #fff;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
@@ -398,7 +407,7 @@ body{
 }
 .solution_container{
 	overflow:hidden;
-	background:url(../images/w70.png);
+	background:url(../images/w70.png);background:rgba(255,255,255,0.7);
 	padding-right:1500px;
 	border-left:5px solid #dd151d;
 	border-left:5px solid rgba(221,21,29,0.5);	
@@ -429,7 +438,7 @@ body{
 	font-style:italic;	
 }
 .solution_container .icons{
-	background:url(../images/w80.png);
+	background:url(../images/w80.png);background:rgba(255,255,255,0.80);
 	padding:20px;
 	width:780px;
 	margin-left:-15px;
@@ -466,7 +475,7 @@ body{
 	font-size:14px;
 }
 .solution_container .request_box{
-	background:url(../images/r50.png);
+	background:url(../images/r50.png);background:rgba(237,28,36,0.5);
 	height:152px;
 	padding-top:20px;
 	padding-left:20px;
@@ -486,7 +495,7 @@ body{
 	box-shadow: -1px 1px 2px rgba(88,88,88,0.4);
 }
 .solution_container .request_box input[type=text]{
-	background:url(../images/w25.png);
+	background:url(../images/w25.png);background:rgba(255,255,255,0.25);
 	border:3px solid #fff;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
@@ -593,7 +602,7 @@ body{
 	box-shadow: -1px 1px 2px rgba(88,88,88,0.4);
 }
 .white_request input[type=text]{
-	background:url(../images/w25.png);
+	background:url(../images/w25.png);background:rgba(255,255,255,0.25);
 	border:3px solid #E6E6E6;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
@@ -802,7 +811,7 @@ body{
 	height:116px;
 	margin-left:240px;
 	overflow:hidden;
-	background:url(../images/g30.png);
+	background:url(../images/g30.png);background:rgba(243,243,243,0.3);
 	position:absolute;
 	bottom:0px;
 }
@@ -922,7 +931,7 @@ body{
 	height: 207px;
 	font-size:18px;
 	padding-top:133px;
-	background:url(../images/r80.png);
+	background:url(../images/r80.png);background:rgba(237,28,36,0.8);
 	z-index:9999;
 	position: absolute;
 	font-family: 'Open Sans', sans-serif;
@@ -1057,7 +1066,7 @@ body{
 	-o-border-radius:30px;
 	border-radius:30px;
 	border:2px solid #434343;
-	z-index:99;
+	z-index:1;
 }
 input[type=text]:focus{
 	-webkit-box-shadow:0px 0px 0px 1px rgba(0,0,0,0.3);
@@ -1150,3 +1159,48 @@ select{
 }
 .appleLinks a {color:#1b1b1d; text-decoration: none;}
 .appleLinksWhite a {color:#ffffff; text-decoration: none;}
+.map_pop_up{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:url(../images/w80.png);background:rgba(255,255,255,0.80);
+	top:0px;
+	left:0px;
+	z-index:99999999;
+	display:none;
+}
+.map_pop_up .map_center{
+	width:80%;
+	height:80%;
+	position:relative;
+	top:10%;
+	left:10%;
+	border:5px groove #222;
+	background-color:#111;
+}
+.map_pop_up .map_center iframe{
+	width:100%;
+	height:100%;
+	border:0px;
+	z-index:999;
+}
+.map_pop_up .map_center .close{
+	width:40px;
+	height:40px;
+	position:absolute;
+	right:-50px;
+	top:-50px;
+	background:url(../images/close-icon.png) no-repeat;
+	cursor:pointer;
+	background-size:100% 100%;
+}
+.open_map{
+	width: 40px;
+	height: 40px;
+	background: url(../images/sbicon.png) no-repeat center;
+	background-size: 70%;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	cursor:pointer;
+}

@@ -10,7 +10,6 @@
         var l1 = new google.maps.Marker({position: new google.maps.LatLng(-26.198207,-52.686653),map: map,icon: image});
 
     }
-
     google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <div class="page_container">

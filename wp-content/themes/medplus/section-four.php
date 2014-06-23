@@ -1,4 +1,4 @@
-<div class="page_bg2" style="background:url(<?php bloginfo('template_url'); ?>/images/bg_4.jpg) no-repeat center top;"></div>
+<div class="page_bg2" style="background:url(<?php bloginfo('template_url'); ?>/images/bg_4.jpg) no-repeat center top;background-size:cover;"></div>
 <div class="page_container">
     <div class="page_content">
         <?php

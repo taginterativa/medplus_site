@@ -1,4 +1,4 @@
-<div class="page_bg7" style="background:url(<?php bloginfo('template_url'); ?>/images/bg_7.jpg) no-repeat right top;background-attachment:fixed;"></div>
+<div class="page_bg7" style="background:url(<?php bloginfo('template_url'); ?>/images/bg_7.jpg) no-repeat right top;background-attachment:fixed;background-size:cover;"></div>
 <div class="page_container">
     <div class="page_content">
         <?php

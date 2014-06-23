@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>MedPlus</title>
+<meta content="telephone=no" name="format-detection">
 <?php 
   wp_head();
   wp_footer();
@@ -21,6 +22,12 @@ var pathUrl = "<?php bloginfo('template_url');?>";
 
 <body>
 <?php get_sidebar(); ?>
+<div class="map_pop_up">
+  <div class="map_center">
+    <div class="close"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1789.9766498051918!2d-52.686822!3d-26.1981974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e552e50d31a18f%3A0x36cb6f783bfaf833!2sSponte+-+Software+%26+Servi%C3%A7os!5e0!3m2!1spt-BR!2s!4v1403295398084" frameborder="0" style="border:0"></iframe>
+  </div>
+</div>
 <div id="fullpage">
     <div class="section" data-page="1">
         <?php get_template_part( 'section', 'one' ); ?>

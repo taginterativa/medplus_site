@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	$(".info").append("<div class='open_map'></div>");
+	$(".open_map").click(function(){
+		$(".map_pop_up").show();
+		$(".map_pop_up").find("iframe").attr("src",$(".map_pop_up").find("iframe").attr("src"));
+	});
+	$(".close").click(function(){
+		$(this).parent().parent().hide();
+	});
 	$(".request_box").each(function(){
 		var rb = $(this).clone();
 		rb.addClass("new");
