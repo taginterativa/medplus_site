@@ -47,6 +47,9 @@ var pathUrl = "<?php bloginfo('template_url');?>";
     <div class="section" data-page="4" data-sub="2">
          <?php get_template_part( 'section', 'six'  ); ?>
     </div>
+    <div class="section" data-page="4" data-sub="3">
+         <?php get_template_part( 'section', 'sixdotfive'  ); ?>
+    </div>
     <div class="section" data-page="5">
          <?php get_template_part( 'section', 'seven'  ); ?>
     </div>

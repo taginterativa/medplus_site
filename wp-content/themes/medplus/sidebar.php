@@ -45,8 +45,11 @@
     <div title="WebSites" class="sub_button click_page sub-2" data-go-to="6" data-sub="2" data-page="4">
         websites
     </div>
+    <div title="NFS-E" class="sub_button click_page sub-3" data-go-to="7" data-sub="2" data-page="4">
+        nfs-e
+    </div>
 
-    <div title="<?php _e("<!--:en-->Customers<!--:--><!--:es-->Clientes<!--:--><!--:pt-->Clientes<!--:-->"); ?>" class="button click_page" data-go-to="7" data-page="5">
+    <div title="<?php _e("<!--:en-->Customers<!--:--><!--:es-->Clientes<!--:--><!--:pt-->Clientes<!--:-->"); ?>" class="button click_page" data-go-to="8" data-page="5">
         <div class="heart_beat">
             <div class="line"></div>
             <div class="white"></div>
@@ -57,7 +60,7 @@
         </div>
     </div>
 
-    <div title="<?php _e("<!--:en-->Contact<!--:--><!--:es-->Contacto<!--:--><!--:pt-->Contato<!--:-->"); ?>" class="button click_page" data-go-to="8" data-page="6">
+    <div title="<?php _e("<!--:en-->Contact<!--:--><!--:es-->Contacto<!--:--><!--:pt-->Contato<!--:-->"); ?>" class="button click_page" data-go-to="9" data-page="6">
         <div class="heart_beat">
             <div class="line"></div>
             <div class="white"></div>
@@ -68,7 +71,7 @@
         </div>
     </div>
 
-    <div title="<?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>" class="request click_page" data-go-to="8" data-page="6">
+    <div title="<?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>" class="request click_page" data-go-to="9" data-page="6">
         <?php _e("<!--:en-->Ask for a <br />presentation<!--:--><!--:es-->Solicite una <br />presentación<!--:--><!--:pt-->Solicite uma <br />apresentação<!--:-->"); ?>
     </div>
 

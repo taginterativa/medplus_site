@@ -317,6 +317,14 @@ body{
 	height:100%;
 	z-index:-1;
 }
+.page_bg65{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
 .page_bg2{
 	position:absolute;
 	top:0px;
@@ -547,6 +555,14 @@ body{
 	position:absolute;
 	left:-36px;
 }
+.left_red_stripe_o{
+	height:87.5%;
+	width:5px;	
+	background: url(../images/r50.png);
+	background: rgba(237,28,36,0.5);
+	position:absolute;
+	left:-36px;
+}
 .pink_box{
 	width:810px;
 	height:296px;
@@ -555,6 +571,25 @@ body{
 	margin-top:-50px;
 	position:relative;
 	margin-left:309px;
+}
+.nfse_box{
+	width: 644px;
+	height: 168px;
+	background: url(../images/r50.png);
+	background: rgba(237,28,36,0.5);
+	color: #fff;
+	margin-top: -50px;
+	position: relative;
+	margin-left: 309px;
+}
+.nfse_box .title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	width: 560px;
+	padding-top: 44px;
+	margin-left: 44px;
+	line-height: 150%;
 }
 .pink_box .title{
 	font-family: 'Open Sans', sans-serif;
