@@ -1249,6 +1249,9 @@ select{
 	.section{
 		margin-left:-74px;
 	}
+	.page_bg65{
+		width:1920px !important;
+	}
 	.solution_container li{
 		width:44%;
 	}
