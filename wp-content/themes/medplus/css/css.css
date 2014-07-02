@@ -814,9 +814,13 @@ body{
 	right:0px;
 	background:url(../images/arrow_right.png) no-repeat;
 }
+.quotes_here{
+	overflow:hidden;
+}
 .quotes{
-	height:163px;
+	overflow:hidden;
 	width:585px;
+	min-height: 168px;
 	margin-bottom:27px;
 	background:url(../images/quotes.png) no-repeat right top;
 }
@@ -833,9 +837,10 @@ body{
 	float:left;
 	width:420px;
 	padding-left:20px;
-	height:146px;
+	overflow:hidden;
 	position:relative;
 	top:20px;
+	padding-bottom: 20px;
 }
 .quotes .text p{
 	width:100%;
@@ -1257,4 +1262,7 @@ select{
 	.pink_box,.nfse_box{
 		margin-left:320px;
 	}
+}
+#carousel div img{
+	height:70px;
 }
